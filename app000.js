@@ -38,7 +38,7 @@ while(userOrder !=='yes' && userOrder !=='no'){
 
     document.write(image);
 
-    alert("welcome Guest")
+    alert("welcome Guest");
 
 
     
