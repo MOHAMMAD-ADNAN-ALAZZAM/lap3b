@@ -1,27 +1,111 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>bodybuilding</title>
+   
+
+<!DOCTYPE html>
+<html lang="en">
+   
+	<head>
+        <title>bodybuilding</title>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, iniitial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			
+		</div>
+	</nav>
+	<div class="col-md-3"></div>
+	<div class="col-md-6 well">
+		<h3 class="text-primary">bodybuilding BMI Calculator</h3>
+		<hr style="border-top:1px dotted #ccc;" />
+		<form>
+			<div class="form-inline">
+				<label>Weight(kg):</label> 
+				<input type="text" class="form-control" id="weight" size="10" >
+			</div>
+			<div class="form-inline">
+				<label>Height(cm):</label> 
+				<input type="text" class="form-control" id="height" size="10">
+			</div>
+			<br />
+			<button class="btn btn-primary" type="button" onClick="calculateBmi()">Calculate</button>
+			<br /><br />
+			<div class="form-inline">
+				<label>BMI:</label> 
+				<input class="form-control" type="text" id="bmi" size="10">
+			</div>
+			<br />
+			<div class="form-inline">
+				<label>Result:</label> 
+				<input class="form-control" type="text" id="result" size="25">
+			</div>
+			<br />
+			<button class="btn btn-success" type="reset">Reset</button>
+		</form>
+	</div>
+<script src="app000.js"></script>
+</body>	
+</html>
 </head>
 <body>
     <header>
+        
         <script>
             alert("welcome");
         </script>
         
         <nav>
-            <h3><img src="logo.jfif" alt="bodybuilding" width="150px" height="150px"></h3>
-            <h1><script>
-                document.write("welcome");
-            </script></h1>
-            <ul>
-                <li><h1><a href="#home">Home</a><h1></li>
-                <li><h1><a href="https://github.com/MOHAMMAD-ADNAN-ALAZZAM">About Me</a><h1></li>
+            <h3 style="text-align:center"><img src="logo.jfif" alt="bodybuilding"
+                width="100px" height="100px"></h3>
+            
+            
+                
+                    <ul style="background-color:rgba(0, 0, 0, 0.74); list-style-type: none; ">
+
+
+                        <li style="display: inline-block"><h1><a style="text-decoration:none; color:white" href="#home">Home</a></h1>
+                        </li>
+
+                        
+                        <li style="display: inline-block"><h1><a style="text-decoration:none; color:white" href="https://github.com/MOHAMMAD-ADNAN-ALAZZAM">About Me
+                            </a></h1></li>
+                
             </ul>
         </nav>
 
+       
+
         </script>
     </header>
+    
+    <button onclick="myFunction()">How many stars do you want?</button>
+
+    <p id="demo"></p>
+    
+    <script>
+    function myFunction() {
+        var userInput1 = prompt('How many stars do you want?')
+  var image = " ";
+  for (var i = 0; i < userInput1; i++) {
+  if (userInput1 == '1') {
+    image = image + '<img src="000.png">'
+    console.log(image);
+  } else if (userInput1 == '2') {
+   image = image + '<img src="000.png">'
+    console.log(image); 
+  } else if (userInput1 == '3') {
+   image = image + '<img src="000.png">'
+    console.log(image);
+  }
+  document.write(image);
+  }
+    }
+    </script>
     <hr>
     <main id="home">
         <img src="1.jpg" alt="bodybuilding" width="150px" height="150px" />
@@ -42,6 +126,8 @@
              deadlifts, shoulder press, bench press – are vital in any routine worth its salt.
               If you’re starting from scratch, try this simple but effective training split
                to begin with.</h1>></article>
+
+               
     </main>
     <br>
     <hr>
@@ -56,6 +142,6 @@
             <h2>Design by : MOHAMMAD ADNAN ALAZZAM ..........2021 &copy;<h2>
         </p>
     </footer>
-    
+   
 </body>
 </html>
