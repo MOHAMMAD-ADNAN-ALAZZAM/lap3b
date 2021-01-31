@@ -1,0 +1,8 @@
+header nav ul{
+    list-style: none;
+}
+
+
+header nav ul li{
+    margin:70px;     
+}

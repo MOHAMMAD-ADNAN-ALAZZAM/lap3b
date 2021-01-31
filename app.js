@@ -24,6 +24,7 @@ function calculateBmi() {
 	}
 }
 
+function greeting(){
 
 var userOrder = prompt(' Would you like to have an image in the background ?(yes/no)?');
 while(userOrder !=='yes' && userOrder !=='no'){
@@ -38,7 +39,11 @@ while(userOrder !=='yes' && userOrder !=='no'){
 
     document.write(image);
 
-    alert("welcome Guest");
+	alert("welcome Guest");
+	
+}
+
+greeting();
 
 
     
